@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Test Backend</title>
+	<meta charset="utf-8"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+
+<div class="form_div">
+	<h1>Registration</h1>
+	<form action="" id="user_form" name="user_form">
+	  <input type="number" id="mobile_number" name="mobile_number" placeholder="Mobile Number" 
+		onfocusout="invalidMobileNumber(this)" oninvalid="invalidMobileNumber(this)" required>
+	  <br><br>
+	  <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+	  <br><br>
+	  <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+	  <br><br>
+	  Date of Birth:<br>
+	  <input type="date" placeholder="birth-date" id="birth-date" name="birth-date" value="yyyy-MM-dd">
+	  <br><br>
+		<input type="radio" id="gender_male" name="gender_male" value="male"> Male
+		<input type="radio" id="gender_female" name="gender_female" value="female"> Female<br>
+	  <br>
+	  Email:<br>
+	  <input type="email" id="email" name="email" 
+		onfocusout="invalidEmail(this)" oninvalid="invalidEmail(this)"
+		placeholder="Email" required>
+	  <br><br>
+	  <input id="submit_button"type="submit" value="Submit">
+	</form> 
+</div>
+</body>
+
+<footer id="footer_main" class="footer_main">
+	<button id="button-left" class="button-left" onClick="">Login</button>
+	<h1>FOOTER</h1>
+</footer>
+</html>

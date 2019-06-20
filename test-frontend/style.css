@@ -1,0 +1,61 @@
+.form_div {
+	background-color:#e7e7e7;
+	width:80%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#mobile_number {
+	width:70%;
+}
+
+#first_name {
+	width:70%;
+}
+
+#last_name {
+	width:70%;
+}
+#email {
+	width:70%;
+}
+
+#submit_button {
+	background-color: #8D28A5;
+	text-align: center;
+	color:#ffffff;
+	width:70%;
+	height:30px;
+}
+
+.footer_main {
+	margin-top:20px;
+	background-color: #8D28A5;
+	width:100%;
+	color:#ffffff;
+	height:90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer_main h1{
+	text-align:center;
+	
+}
+
+.footer_main .button-left{
+	position: absolute;
+	z-index: 1;
+	float:center;
+	width: 80%;
+	height:5%;
+	background-color:#8D28A5;
+	color: #ffffff;
+	text-size: 20dp;
+	visibility:hidden;
+}
