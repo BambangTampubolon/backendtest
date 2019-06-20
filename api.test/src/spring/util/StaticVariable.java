@@ -5,8 +5,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class StaticVariable {
-	public static final String PROPERTIES_PATH = "F:\\workspace\\api.test\\src\\persistent.properties";
-	public static final String LOG4J_PATH = "F:\\workspace\\api.test\\src\\log4j.properties";
+	public static final String PROPERTIES_PATH = "F:\\workspace\\backend-test\\api.test\\src\\persistent.properties";
+	public static final String LOG4J_PATH = "F:\\workspace\\backend-test\\api.test\\src\\log4j.properties";
 	public static final String DATE_PATTERN = "yyyy-MM-dd";
 	
 	public static String starckTraceToString(Exception ex) {
