@@ -68,7 +68,7 @@ function saveNewUser(){
 		data: formToJSON(),
 		success: function(data){
 			console.dir(data)
-            alert("Sucess insert data with id" + data.content.detailmessage);
+            alert("Sucess insert data with id:" + data.content.detailmessage);
 			disableForm();
         },
 		error: function(data){
